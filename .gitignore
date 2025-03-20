@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# Virtual environments
+.venv
+
+
+logs/**
+!logs/**/
+!logs/**/.gitkeep
+
+.vscode/
+
+# uv
+uv.lock
+.python-version
+
+# notebooks
+notebooks/
+
+# environment variables
+.env
+
+# vector db
+vector_database/
