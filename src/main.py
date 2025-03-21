@@ -54,4 +54,4 @@ if __name__ == "__main__":
     # Run the async main function
     load_dotenv()
     url = "https://www.firecrawl.dev/"
-    asyncio.run(firecrawler())
+    asyncio.run(firecrawler(url))
