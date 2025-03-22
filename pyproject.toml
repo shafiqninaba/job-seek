@@ -1,15 +1,16 @@
 [project]
-name = "job-seek"
-version = "0.1.0"
+dependencies = [
+  "dotenv>=0.9.9",
+  "firecrawl>=1.14.1",
+  "firecrawl-py>=1.14.1",
+  "ipykernel",
+  "loguru>=0.7.3",
+  "nest-asyncio>=1.6.0",
+  "pre-commit>=4.2.0",
+  "websockets==10.1"
+]
 description = "Add your description here"
+name = "job-seek"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "dotenv>=0.9.9",
-    "firecrawl>=1.14.1",
-    "firecrawl-py>=1.14.1",
-    "ipykernel",
-    "loguru>=0.7.3",
-    "nest-asyncio>=1.6.0",
-    "websockets==10.1",
-]
+version = "0.1.0"
